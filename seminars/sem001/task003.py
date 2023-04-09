@@ -9,7 +9,8 @@
 # 22
 # Output:
 # 32
-first_cr = (int(input())+1) // 2
-second_cr = (int(input())+1) // 2
-third_cr = (int(input())+1) // 2
+ppl_on_tbl = 2 
+first_cr = (int(input())+1) // ppl_on_tbl
+second_cr = (int(input())+1) // ppl_on_tbl
+third_cr = (int(input())+1) // ppl_on_tbl
 print(first_cr+second_cr+third_cr)
