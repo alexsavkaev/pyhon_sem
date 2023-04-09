@@ -8,7 +8,7 @@
 # 24 -> 4  16  4
 #     60 -> 10  40  10
 #     7 -> "Нельзя определить"
-S = int(input())
+S = int(input('Введите число журавликов: '))
 min = int(S/6)
 pet = min
 ser = min
@@ -16,4 +16,4 @@ kat = (min+min)*2
 if S%6 !=0:
     print('Нельзя определить')
 else:
-    print(pet, kat, ser)
+    print(f'Петя сделал - {pet}, Катя сделала - {kat}, Серёжа сделал - {ser}.')

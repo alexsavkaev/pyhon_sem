@@ -10,9 +10,9 @@
 # 385916 -> yes
 # 123456 -> no
 #     001001 -> yes
-ticket = input()
+ticket = input('Введите номер билетика: ')
 if (int(ticket[0]) + int(ticket[1]) + int(ticket[2])) == (int(ticket[3])+int(ticket[4]) + int(ticket[5])):
-    print('yes')
+    print('Счастливый!')
 else:
-    print('no')
+    print('Не счастливый.')
 
