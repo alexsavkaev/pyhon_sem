@@ -9,8 +9,8 @@ sum = int(input("Сумма чисел: "))
 prod = int(input("Произведение чисел: "))
 x = 1
 y = 1
-for x in range(1000):
-    for y in range(1000):
+for x in range(sum):
+    for y in range(prod):
         if (x+y) == sum and (x*y) == prod:
             print(f'Задуманные числа: {x} и {y}')
             
