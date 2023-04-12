@@ -5,14 +5,15 @@
 
 # Пример
 # Ввод: 5 6 -> Вывод: 2 3
-sum = int(input("Сумма чисел: "))
-prod = int(input("Произведение чисел: "))
-x = 1
-y = 1
-for x in range(sum):
-    for y in range(prod):
-        if (x+y) == sum and (x*y) == prod:
-            print(f'Задуманные числа: {x} и {y}')
+s = int(input("Введите сумму двух чисел: "))
+p = int(input("Введите произведение двух чисел: "))
+
+for x in range(p):
+    y = s - x
+    if x * y == p:
+        print("x =", x)
+        print("y =", y)
+        break
             
             
  
